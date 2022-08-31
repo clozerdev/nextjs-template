@@ -1,24 +1,35 @@
 {
-  "name": "next-template",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "18.7.14",
-    "@types/react": "18.0.18",
-    "@types/react-dom": "18.0.6",
-    "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5",
-    "typescript": "4.8.2"
-  }
+	"name": "next-template",
+	"description": "NextJS new projects template",
+	"version": "1.0.0",
+	"author": "Clozer Dev",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"format": "prettier --write .",
+		"lint": "eslint . --ext .ts,.tsx --fix"
+	},
+	"dependencies": {
+		"next": "12.2.5",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "18.7.14",
+		"@types/react": "18.0.18",
+		"@types/react-dom": "18.0.6",
+		"@typescript-eslint/eslint-plugin": "5.36.1",
+		"eslint": "8.23.0",
+		"eslint-config-next": "12.2.5",
+		"eslint-config-prettier": "8.5.0",
+		"eslint-config-standard-with-typescript": "22.0.0",
+		"eslint-plugin-import": "2.26.0",
+		"eslint-plugin-n": "15.2.5",
+		"eslint-plugin-promise": "6.0.1",
+		"eslint-plugin-react": "7.31.1",
+		"prettier": "2.7.1",
+		"typescript": "4.8.2"
+	}
 }
